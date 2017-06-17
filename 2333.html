@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.a
+		{
+			background-color: blue;
+			height: 100px;
+			width: 100px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<div class="a" id="ok"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+		<div class="a"></div>
+	</div>
+	<script type="text/javascript">
+		// document.getElementsById('box').onclick=function () {
+		// 	alert(2333333);
+		// }
+	
+		for(var i=0;i<10;i++){
+			document.getElementById('box').getElementsByTagName('div')[i].onclick=(function(z){
+				return function(){
+					alert(z+1);
+				}
+			})(i);
+		}
+
+	</script>
+</body>
+</html>
