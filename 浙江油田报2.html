@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>浙江油田报</title>
+	<style type="text/css">
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol,ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } body { line-height: 1; } ol,, q { quotes: none; } blockquote:before,blockquote:after, q:before, q:after { content: ''; content: none; } /* remember to define focus styles! */ :focus { outline: 0;} /* remember to highlight inserts somehow! */ ins { text-decoration: none; } del { text-decoration: line-through; } /* tables still need 'cellspacing="0"' in the markup */ table { border-collapse: collapse; border-spacing: 0; }
+		p.a
+		{
+			color: white;
+		}
+		li
+		{
+			margin: 8px 0 8px 0;
+		}
+		a
+		{
+			text-decoration: none;
+			color: black;
+		}
+		body
+		{
+			background-image: url(image/9.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.header
+		{
+			height: 120px;
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.logoone
+		{
+			height: 110px;
+			left: 300px;
+			position: absolute;
+			
+		}
+		.logotwo
+		{
+			position: absolute;
+			left: 830px;
+			top: 20px;
+		}
+		.logothree
+		{
+			height: 40px;
+			width: 100%;
+			background-color: #2a5caa;
+			position: absolute;
+		}
+		.logothree1
+		{
+			position: absolute;
+			left: 300px;
+			top: 8px;
+		}
+		.logothree2
+		{
+			position: absolute;
+			left: 690px;
+			top: 8px;
+		}
+		.logothree3
+		{
+			position: absolute;;
+			left: 1150px;
+			top: 8px;
+		}
+		.center
+		{
+			height: 800px;
+			width: 1000px;
+			margin: 0 auto;
+
+		}
+		.left
+		{
+			height: 800px;
+			width: 450px;
+			position: absolute;
+		}
+		.lefttop
+		{
+			position: absolute;
+			top: 60px;
+		}
+		.leftdown
+		{
+			width: 400px;
+			height: 50px;
+			background-color: #2a5caa;
+			position:absolute;
+			top: 700px;
+		}
+		.leftdown1
+		{
+			position: absolute;
+			left: 15px;
+			top: 15px;
+		}
+		.leftdown2
+		{
+			position: absolute;
+			left: 140px;
+			top: 15px;
+		}
+		.leftdown3
+		{
+			position: absolute;
+			left: 320px;
+			top: 32px;
+		}
+		.center0
+		{
+			height: 800px;
+			width: 325px;
+			position: absolute;
+			left: 690px;
+		}
+		.centertop
+		{
+			height: 321px;
+			width: 323px;
+			position: absolute;
+			top: 60px;
+   		border-radius:15px;
+   		background-image: url(image/4.png);
+		}
+		.centertop1
+		{
+			position: absolute;
+			left: 38px;
+			top: 8px;
+		}
+		.centertop2
+		{
+			position: absolute;
+			left: 250px;
+			top: 3px;
+			color: white;
+		}
+		.centertop3
+		{
+			position: absolute;
+			top: 40px;
+			left: 50px;
+		}
+		.centerdown
+		{
+			height: 321px;
+			width: 323px;
+			position: absolute;
+			top: 431px;
+   		border-radius:15px;
+   		background-image: url(image/4.png);
+		}
+		.centerdown1
+		{
+			position: absolute;
+			left: 33px;
+			top: 8px;
+		}
+		.centerdown2
+		{
+			position: absolute;
+			top: 40px;
+			left: 50px;
+		}
+		.right
+		{
+			height:800px;
+			width: 190px;
+			position: absolute;
+			left: 1050px;
+		}
+		.righttop
+		{
+			width: 190px;
+			height: 138px;
+			background-image: url(image/66.png);
+			position: absolute;
+			top: 65px;
+		}
+		.righttop1
+		{
+			position: absolute;
+			left: 65px;
+			top: 45px;
+		}
+		.righttop2
+		{
+			position: absolute;
+			left: 3px;
+		}
+		.rightdown
+		{
+			width: 190px;
+			height: 501px;
+			position: absolute;
+			top: 250px; 
+   		border-radius:15px;
+			background-image: url(image/7.png);
+		}
+		.rightdown1
+		{
+			position: absolute;
+			left: 15px;
+			top: 6px;
+		}
+		.rightdown2 ul
+		{
+			list-style-type: none;
+		}
+		.rightdown2 p
+		{
+			margin: 25px 0 25px 0;
+		}
+		.rightdown2 h4
+		{
+			height: 18px;
+			width: 50px;
+		}
+		.rightdown3
+		{
+			position: absolute;
+			left: 10px;
+			top: 40px;
+		}
+		.footer
+		{
+			margin: 0 auto;
+			width: 1000px;
+			height: 40px;
+		}
+		.footer1
+		{
+			position: absolute;
+			top: 920px;
+			left: 50%;
+			height: 40px;
+			width: 240px;
+			margin-left: -120px;
+		}
+		.footer4
+		{
+			width: 100%;
+			height: 100px;
+			position: absolute;
+			text-align: center;
+			background-color: #2a5caa;
+		}
+		.footer2
+		{
+			position: absolute;
+			top: 25px;
+			left: 50%;
+			margin-left: -424px;
+		}
+		.footer3
+		{
+			position: absolute;
+			top: 55px;
+			left: 50%;
+			margin-left: -168px;
+		}
+	</style>
+</head>
+<body>
+	<meta charset="utf-8">
+	<div class="header">
+		<div class="logoone">
+			<img src="image/logo1.png">
+		</div>
+		<div class="logotwo">
+			<img src="image/logo2.png">
+		</div>		
+	</div>
+	<div class="logothree">
+			<div class="logothree1">
+				<p style="font-weight: bold" class="a">主办单位：浙江油田公司党委</p>
+			</div>
+			<div class="logothree2">
+				<p style="font-weight: bold" class="a">2017年2月7日  星期二</p>
+			</div>
+			<div class="logothree3">
+				<p style="font-weight: bold" class="a">上一期</p>
+			</div>
+		</div>
+	<div class="center">
+		 <div class="left"> 
+			<div class="lefttop">
+				 <img src="image/1.png" width="400px" height="600px">
+			</div>
+			<div class="leftdown">
+				<div class="leftdown1">
+					<p style="font-weight: bold" class="a">上一版</p>
+				</div>
+				<div class="leftdown2">
+					<p style="font-weight: bold" class="a">下一版</p>
+				</div>
+				<div class="leftdown3">
+					<p  style="font-size: small;" class="a">内容下载</p>
+				</div>
+			</div>
+		</div>
+		<div class="center0">
+			<div class="centertop">
+				<div class="centertop1">第六版</div>
+				<div class="centertop2">版面主体</div>
+				<div class="centertop3">
+					<ul>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+						<li><a href="#">111111111111111111</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="centerdown">
+				<div class="centerdown1">今日关注</div>
+				<div class="centerdown2">
+					<ul>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+						<li><a href="#">22222222222222222222</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="righttop">
+				<div class="righttop1">
+					<div>2016年</div>
+					<select name="month">
+						<option value="一月">一月</option>
+						<option value="二月">二月</option>
+						<option value="三月">三月</option>
+						<option value="四月">四月</option>
+						<option value="五月">五月</option>
+						<option value="六月">六月</option>
+						<option value="七月">七月</option>
+						<option value="八月">八月</option>
+						<option value="九月">九月</option>
+						<option value="十月">十月</option>
+						<option value="十一月">十一月</option>
+						<option value="十二月">十二月</option>
+					</select>
+				</div>	
+			</div>
+			<div class="rightdown">
+				<div class="rightdown1">版面目录</div>
+				<div class="rightdown2">
+					<div class="rightdown3">
+						<ul>
+							<li>
+								<h4>1版</h4>
+								<a href="#">aaaaaaaaaaaaaaaaaaa<br>aaaa&nbsp;</a>
+							</li>
+							<li>
+								<h4>2版</h4>
+								<a href="#">aaaaaaaaaaaaaaaaaaa<br>aaaa&nbsp;</a>
+							</li>
+							<li>
+								<h4>3版</h4>
+								<a href="#">aaaaaaaaaaaaaaaaaaa<br>aaaa&nbsp;</a>
+							</li>
+							<li>
+								<h4>4版</h4>
+								<a href="#">aaaaaaaaaaaaaaaaaaa<br>aaaa&nbsp;</a>
+							</li>
+							<li>
+								<h4>5版</h4>
+								<a href="#">aaaaaaaaaaaaaaaaaaa<br>aaaa&nbsp;</a>
+							</li>
+							<li>
+								<h4>6版</h4>
+								<a href="#">aaaaaaaaaaaaaaaaaaa<br>aaaa&nbsp;</a>
+							</li>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer1">
+			<p>关于我们 | 投稿方式 | 	版权声明</p>
+			<p>主办单位：浙江油田公司党委</p>
+		</div>
+	</div>
+	<div class="footer4">
+			<div class="footer2">
+				<h3>版权声明：刊发的所有作品，版权均属于浙江油田公司党委。未经书面授权，任何单位和个人不得将刊发的内容用于商业</h3>
+			</div>
+			<div class="footer3">
+				<h3>用。如进行转载，摘编，必须在书面范围内使用</h3>
+			</div>
+	</div>
+</body>
+</html>
