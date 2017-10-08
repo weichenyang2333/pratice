@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol,ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } body { line-height: 1; } ol,, q { quotes: none; } blockquote:before,blockquote:after, q:before, q:after { content: ''; content: none; } /* remember to define focus styles! */ :focus { outline: 0;} /* remember to highlight inserts somehow! */ ins { text-decoration: none; } del { text-decoration: line-through; } /* tables still need 'cellspacing="0"' in the markup */ table { border-collapse: collapse; border-spacing: 0; }
+		body
+		{
+			margin: 0 auto;
+			width: 1200px;
+			background-color: #eee;
+			padding: 0;
+			text-decoration: none;
+		}
+		.picture
+		{
+			background-image: url(image6/01.png);
+			width: 100%;
+			background-size: cover;
+			height: 572px;
+		}
+		.head ul
+		{
+			display: block;
+			width: 100%;
+			height:40px;
+			background-color: #CD5C5C;
+			text-align: center;
+		}
+		.head ul li
+		{
+			list-style: none;
+			float: left;
+			width: 25%;
+			text-align: center;
+			line-height:40px;
+		}
+		.head ul li a
+		{
+			line-height: 40px;
+			text-decoration: none;
+			font: normal small-caps bolder 1.7em "华文新魏";
+			color:#FF8C00;
+		}
+		.head ul li a:hover
+		{
+			color: white;
+		}
+		.container
+		{
+			width: 800px;
+			height: 534px;
+			margin: 0 auto;
+			overflow: hidden;
+			position: relative;
+			border:3px solid #333;
+			margin-top: 50px;
+		}
+		.container:hover
+		{
+			color: red;
+		}
+		.list
+		{
+			width: 800px;
+			height: 534px;
+			position: absolute;
+			z-index: 1;
+		}
+		.list1
+		{
+			width: 500%;
+			height: 534px;
+			position: relative;
+		}
+		.list img
+		{
+			float: left;
+		}
+		.arrow
+		{
+			cursor: pointer;
+			display: none;
+			text-align: center;
+			font-size: 50px;
+			font-weight: bold;
+			width: 40px;
+			height: 80px;
+			position: absolute;
+			z-index: 2;
+			top: 240px;
+			line-height: 78px;
+			text-decoration: none;
+			color: black;
+			background-color: gray;
+			opacity: 0.5;
+		}
+		.arrow:hover
+		{	
+			color: white;
+		}
+		.container:hover .arrow
+		{
+			display: block;
+		}
+		#prev
+		{
+			left: 20px;
+			float: left;
+		}
+		#next
+		{
+			right: 20px;
+			float: right;
+		}
+		.foot
+		{
+			width: 100%;
+			height: 150px;
+			background-color: #CD5C5C;
+			margin-top: 50px;
+		}
+		span
+		{
+			color: white;
+			font: normal small-caps bolder 1.6em "华文新魏";
+			text-align: center;
+			display: block;
+		}
+		.foot1
+		{
+			position: relative;
+			top: 40px;
+		}
+		.foot2
+		{
+			position: relative;
+			top: 80px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function(){
+			var container = document.getElementById('container');
+			var list = document.getElementById('list');
+			var list1 = document.getElementById('list1');
+			var prev = document.getElementById('prev');
+			var next = document.getElementById('next');
+			function animate(offset){
+				var newleft = parseInt(list1.style.left) + offset;
+				list1.style.left = newleft + offset + 'px';
+				if(newleft > -800){
+					list1.style.left = -2400 +'px';
+				}
+				if(newleft < -2400){
+					list1.style.left = -800 + 'px';
+				}
+			}
+
+			next.onclick = function(){
+				animate(-400);
+			 	
+			 }
+			prev.onclick = function(){
+				animate(400);
+	
+			}
+
+		}	
+	</script>
+</head>
+<body>
+	<div class="head">
+		<div class="picture">
+		</div>
+		<ul>
+			<li><a href="index.html">军训记录簿</a></li>
+		<li><a href="index2.html">军训美图</a></li>
+		<li><a href="index3.html">军训进行时</a></li>
+		<li><a href="index4.html">军训攻略</a></li>
+		</ul>
+	</div>
+	<div class ="container" id="container">
+		<div class ="list" id="list">
+			<div class="list1" id="list1" style="left:-800px;">
+				<img src="image6/05.jpg" alt="3" width="800px" height="534px">
+				<img src="image6/03.jpg" alt="1" width="800px" height="534px">
+				<img src="image6/04.jpg" alt="2" width="800px" height="534px">
+				<img src="image6/05.jpg" alt="3" width="800px" height="534px">
+				<img src="image6/03.jpg" alt="1" width="800px" height="534px">
+			</div>
+		</div>
+		<a href="javascript:;" class="arrow" id="prev">&lt</a>
+		<a href="javascript:;" class="arrow" id="next">&gt</a>
+	</div>
+	<div class="foot">
+		<span class="foot1">中国石油大学(华东)官网：http://www.upc.edu.cn/</span>
+		<span class="foot2">制作：糯客作坊</span>
+	</div>
+</body>
+</html>
