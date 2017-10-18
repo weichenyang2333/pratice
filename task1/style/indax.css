@@ -1,0 +1,608 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+ font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol,ul, li, fieldset, form, label, legend, table,
+  caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+   body { line-height: 1; } ol,, q { quotes: none; } blockquote:before,blockquote:after, q:before, q:after { content: ''; content: none; } 
+   /* remember to define focus styles! */ :focus { outline: 0;} /* remember to highlight inserts somehow! */ ins { text-decoration: none; } del { text-decoration: line-through; }
+    /* tables still need 'cellspacing="0"' in the markup */ table { border-collapse: collapse; border-spacing: 0; }
+body
+{
+	width: 1280px;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+.top
+{
+	height: 60px;
+}
+.top1
+{
+	width: 130px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 14px;
+}
+.top ul li
+{
+	float: right;
+	list-style: none;
+	display: block;
+	margin-right: 50px;
+	line-height: 60px;
+	color: black;
+}
+.top ul li a:hover
+{
+	color: blue;
+}
+.top ul li a
+{
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+.top span
+{
+	position: relative;
+	top: -10px;
+}
+.logo
+{
+	height: 668px;
+	width: 1280px;
+	background-image: url(../image5/002.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo h1
+{
+	font-size: 6em;
+	font-weight: 500;
+	color: white;
+	display: block;
+	margin-top: 133px;
+    margin-left: 100px;
+}
+.logo h4
+{
+	font-size: 1.5em;
+	color: white;
+	display: block;
+	margin-left: 251px;
+}
+.logo1
+{
+	height: 70px;
+	width: 400px;
+	background-color: #FF453B;
+	position: relative;
+	left: 230px;
+    top: 405px;
+    margin-right: 0px;
+}
+.logo1 span
+{
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+	line-height: 70px;
+}
+.logo1 span a
+{
+	text-decoration: none;
+	color: white;
+}
+.logo1 span a:hover
+{
+	color: blue;
+}
+nav
+{
+	height: 180px;
+	width: 1280px;
+}
+.nav1
+{
+	width: 320px;
+	height: 180px;
+	float: left;
+
+}
+.nav2
+{
+	width: 320px;
+	height: 180px;
+	float: left;
+}
+.nav3
+{
+	width: 320px;
+	height: 180px;
+	float: left;
+}
+.nav4
+{
+	width: 320px;
+	height: 180px;
+	float: left;
+}
+.nav1 span
+{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+.nav11
+{
+	margin-left: 130px;
+    margin-top: 50px;
+}
+.nav2 span
+{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+.nav21
+{
+	margin-left: 146px;
+    margin-top: 50px;
+}
+.nav3 span
+{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+.nav31
+{
+	margin-left: 139px;
+    margin-top: 50px;
+}
+.nav4 span
+{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+.nav41
+{
+	margin-left: 127px;
+    margin-top: 50px;
+}
+.container1
+{
+	height: 300px;
+	width: 1280px;
+	background-color: rgb(230,230,230);
+}
+.container1 span
+{
+	display: block;
+	font-size: 3em;
+	color: rgb(150,150,150);
+	text-align: center;
+	margin-top: 50px;
+}
+.container11
+{
+	padding-left: 46.5%;
+    padding-top: 72px;
+}
+.container2
+{
+	height: 300px;
+	width: 1280px;
+	background-image: url(../image5/011.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 1px;
+}
+.container25 h3
+{
+	font-size: 1.5em;
+	font-family: "宋体";
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+.container25 h6
+{
+	font-size: 0.8em;
+	font-family: "宋体";
+	color: white;
+	text-align: center;
+	margin-top:10px; 
+}
+.container2 select
+{
+	background: transparent;
+	background-color: white; 
+	width: 240px; 
+	padding: 5px; 
+	font-size: 16px; 
+	border: 1px solid #ccc; 
+	height: 34px; 
+	float: left;
+	margin-left: 60px;
+	margin-top: 70px;
+	-webkit-appearance:  
+
+}
+.container24
+{
+	width: 240px;
+	height: 34px;
+	float: right;
+	margin-top: 70px;
+    margin-right: 50px;
+    background-color: #FF453B;
+}
+.container24 p
+{
+	font-family: "宋体";
+	text-align: center;
+	line-height: 34px;
+	color: white;
+}
+.container3
+{
+	height: 500px;
+	background-color: #eee;
+
+}
+.container31
+{
+	margin-left: 120px;
+	float: left;
+	margin-top: 50px;
+}
+.container32
+{
+	float: left;
+	margin-left:50px; 
+}
+.container33
+{
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.container34
+{
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.container31 h3
+{
+	text-align: center;
+	font-family: "宋体";
+	margin-top: 30px;
+}
+.container32 h3
+{
+	text-align: center;
+	font-family: "宋体";
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+.container321
+{
+	margin-top: 30px;
+}
+.container33 h3
+{
+	text-align: center;
+	font-family: "宋体";
+	margin-top: 30px;
+}
+.container34 h3
+{
+	text-align: center;
+	font-family: "宋体";
+	margin-top: 30px;
+}
+.container4
+{
+	height: 500px;
+}
+.container41
+{
+	width: 850px;
+	height: 500px;
+	background-image: url(../image5/012.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+.container42
+{
+	width: 430px;
+	float: left;
+}
+.container41 h1
+{
+	font-size: 2.5em;
+	font-family: "宋体";
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+.container41 h2
+{
+	text-align: center;
+	font-family: "宋体";
+	color: white;
+	font-size: 10em;
+}
+.container41 h3
+{
+	text-align: center;
+	font-family: "宋体";
+	color: white;
+}
+.container41 h4
+{
+	text-align: center;
+	font-family: "宋体";
+	color: white;
+}
+.container42 h3
+{
+	font-family: "宋体";
+	text-align: center;
+	margin-top: 100px;
+}
+.container42 p
+{
+	font-family: "宋体";
+	text-align: center;
+	margin-top: 20px;
+}
+.container421
+{
+	width: 150px;
+	height: 30px;
+	border: 2px solid #FF453B;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+}
+.container421 h1
+{
+	text-align: center;
+	line-height:30px;
+}
+.container421 h1 a
+{
+	color: #FF453B;
+	text-decoration: none;
+}
+.container421 h1 a:hover
+{
+	color: blue;
+}
+.container5
+{
+	height: 500px;
+}
+.container51
+{
+	width: 427px;
+	height: 500px;
+	float: left;
+	background-color: #FF453B;
+}
+.container52
+{
+	width: 427px;
+	height: 500px;
+	float: left;
+}
+.container53
+{
+	width: 426px;
+	height: 500px;
+	float: left;
+	background-image: url(../image5/013.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container51 span
+{
+	text-align: center;
+	display: block;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 130px;
+}
+.square1
+{
+	width: 150px;
+	height: 30px;
+	border: 2px solid white;
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+}
+.square1 p
+{
+	font-family: "宋体";
+	text-align: center;
+	line-height: 30px;
+}
+.square1 p a
+{
+	color: white;
+	text-decoration: none;
+}
+.square1 p a:hover
+{
+	color: blue;
+}
+.container52 span
+{
+	text-align: center;
+	display: block;
+	color: #FF453B;
+	font-size: 1.5em;
+	margin-top: 130px;
+}
+.square2
+{
+	width: 150px;
+	height: 30px;
+	border: 2px solid #FF453B;
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+}
+.square2 p
+{
+	font-family: "宋体";
+	text-align: center;
+	line-height: 30px;
+	font-weight: 800;
+}
+.square2 p a
+{
+	color: #FF453B;
+	text-decoration: none;
+}
+.square2 p a:hover
+{
+	color: blue;
+}
+.container6
+{
+	height: 600px;
+}
+.container61 h1
+{
+	text-align: center;
+	font-family: "宋体";
+	font-size: 2em;
+	margin-top: 50px;
+}
+.container61 span
+{
+	text-align: center;
+	display: block;
+	color: rgb(180,180,180);
+	margin-top: 50px;
+}
+.container62
+{
+	width: 460px;
+	float: left;
+	margin-top: 80px;
+    margin-left: 91px;
+}
+.container62 h3
+{
+	color: rgb(130,130,130);
+	font-family: "宋体";
+	text-align: center;
+	margin-top: 50px;
+}
+.container62 p
+{
+	color: rgb(180,180,180);
+	text-align: center;
+	font-family: "宋体";
+}
+.container63
+{
+	width: 650px;
+	float: left;
+	margin-top: 80px;
+    margin-left: 43px;
+}
+.container631
+{
+	width: 300px;
+	background-color: rgb(237,237,238);
+	position: relative;
+	float: left;
+	margin-top: 50px;
+}
+.container632 
+{
+	width: 300px;
+	background-color: rgb(237,237,238);
+	float: right;
+	margin-top: 50px;
+
+}
+.container633
+{
+	width: 300px;
+	background-color: rgb(237,237,238);
+	float: left;
+	margin-top: 15px;
+}
+.container634
+{
+	width: 300px;
+	background-color: rgb(237,237,238);
+	float: right;
+	margin-top: 15px;
+}
+.container635
+{
+	width: 650px;
+    background-color: rgb(237,237,238);
+    float: right;
+    margin-top: 15px;
+}
+.container635 p
+{
+	background-color: rgb(237,237,238);
+	margin-left: 20px;
+}
+.container636
+{
+	width: 650px;
+	background-color: rgb(237,237,238);
+	height: 40px;
+	float: right;
+	margin-top: 15px;
+}
+.container636 p
+{
+	text-align: center;
+	line-height: 40px;
+}
+footer
+{
+	height: 300px;
+	padding-top: 1px;
+	background-color: rgb(50,45,62);
+}
+footer h2
+{
+	font-size: 2.5em;
+    font-family: "宋体";
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+footer span
+{
+	text-align: center;
+    display: block;
+    color: white;
+    font-family: "宋体";
+    margin-top: 20px;
+}
+.footer1
+{
+	float: left;
+	margin-left: 31.5%;
+	margin-top: 50px;
+}
+.footer2
+{
+	float: left;
+	margin-top: 50px;
+}
